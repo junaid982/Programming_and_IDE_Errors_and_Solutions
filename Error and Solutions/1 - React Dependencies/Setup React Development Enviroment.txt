@@ -1,0 +1,14 @@
+Setup React Development Enviroment
+
+Requirements 
+
+1 – Node and npm
+2 – Vs Code 
+3 – React Developer Tools Chrome Extension
+
+Vs Code Extension
+1 – Thunder Client
+2 – Es7 React/Redux/GraphQL/React Native snipit
+3 – bracket pair colorizer
+4 – Auto rename Tag 
+5 – Live Server
