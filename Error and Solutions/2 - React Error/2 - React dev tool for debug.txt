@@ -1,0 +1,8 @@
+npm install -g react-devtools
+
+react-devtools
+
+
+<html>
+  <head>
+    <script src="http://localhost:8097"></script>
