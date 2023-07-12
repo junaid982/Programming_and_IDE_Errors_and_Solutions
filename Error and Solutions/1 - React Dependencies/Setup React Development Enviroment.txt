@@ -12,3 +12,4 @@ Vs Code Extension
 3 – bracket pair colorizer
 4 – Auto rename Tag 
 5 – Live Server
+6 - sqlite viewer
