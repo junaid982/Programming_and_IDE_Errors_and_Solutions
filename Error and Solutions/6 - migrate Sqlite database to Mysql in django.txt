@@ -1,0 +1,56 @@
+migrate Sqlite database to Mysql in django
+________________________________________________
+
+got django base directory 
+
+activate env 
+>>> source env/bin/activate
+
+>>> pip install mysqlclient
+
+backup sqlit database into a json 
+
+>>> python manage.py dumpdata > mydb.json
+
+>>> ls 
+
+
+make mysql configuration in settings.py 
+
+settings.py 
+
+DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.mysql',
+         'NAME': 'adspanel',
+         'USER':'root',
+         'PASSWORD' :'root',
+         'HOST' :'0.0.0.0',
+         'PORT' : 3306
+     }
+ }
+
+
+# migrate database
+
+>>> python3 manage.py migrate
+
+
+# Load json data to mysql database 
+
+>>> python3 manage.py loaddata mydb.json
+
+
+# restart command nginx and gunicorn
+
+>>> sudo systemctl restart nginx
+>>> sudo service gunicorn restart
+>>> sudo service nginx restart
+
+
+
+
+
+
+
+
