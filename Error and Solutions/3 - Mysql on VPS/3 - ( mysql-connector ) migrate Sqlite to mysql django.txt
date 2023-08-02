@@ -1,0 +1,143 @@
+migrate Sqlite Database to mysql Database in django
+
+with ( mysql-connector ) 
+
+======================================================================================
+Step 1
+
+Goto project directory 
+
+activate virtual enviroment
+
+>>> source env/bin/activate
+
+
+======================================================================================
+Step 2
+
+install library 
+
+>>> pip install mysql-connector-python
+
+>>> pip install pymysql
+
+
+install mysql 
+
+
+>>> sudo apt update 
+
+>>> sudo apt install mysql-server
+
+open MySql
+
+>>> mysql -u root -p
+
+default password is root
+
+======================================================================================
+
+Step 3
+
+create a database 
+
+>>> create database adspanel;
+
+
+Then, run the following SQL query: ( according to your user )
+
+>>> SELECT user, host, plugin FROM mysql.user WHERE user='root';
+
+according to your password
+
+>>> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+
+
+>>> sudo service mysql restart
+
+>>> sudo service mysql status
+
+if not started 
+
+>>> sudo service mysql start
+
+
+>>> Exit;
+======================================================================================
+
+Step 4
+
+backup existing database 
+
+>>> python manage.py dumpdata > mydb.json
+
+
+======================================================================================
+
+Step 5
+
+open settings.py 
+add this Databse configurations 
+
+
+
+settings.py 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'mysql.connector.django',
+        'NAME': 'adspanel',    # mysql database name 
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',  # Or the IP address of your MySQL server if not on the same machine
+        'PORT': '',          # Leave empty to use the default MySQL port
+    }
+}
+
+
+save and exit 
+
+======================================================================================
+
+Step 6
+
+create tables in MySql Database 
+
+>>> python3 manage.py migrate
+
+
+======================================================================================
+
+Step 7 
+
+Backup the Sqlite Database to MySql 
+
+>>> python3 manage.py loaddata mydb.json
+
+
+
+
+# restart command nginx and gunicorn
+
+>>> sudo systemctl restart nginx
+>>> sudo service gunicorn restart
+>>> sudo service nginx restart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

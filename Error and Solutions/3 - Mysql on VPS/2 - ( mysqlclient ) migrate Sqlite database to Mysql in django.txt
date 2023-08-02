@@ -1,12 +1,19 @@
 migrate Sqlite database to Mysql in django
 ________________________________________________
 
-got django base directory 
+step 1 
+
+goto django base directory 
 
 activate env 
 >>> source env/bin/activate
 
 >>> pip install mysqlclient
+
+
+=====================================================
+
+step 2 
 
 backup sqlit database into a json 
 
@@ -14,6 +21,9 @@ backup sqlit database into a json
 
 >>> ls 
 
+=====================================================
+
+Step 3
 
 make mysql configuration in settings.py 
 
