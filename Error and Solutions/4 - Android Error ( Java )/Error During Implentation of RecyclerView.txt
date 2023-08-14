@@ -1,0 +1,13 @@
+
+if Error Occur Ducring Implementation of Recycler View 
+
+Open gradle.properties 
+
+
+add 
+
+---------------------------------------------
+android.enableJetifier=true
+---------------------------------------------
+
+and Sync
