@@ -7,4 +7,15 @@ git add .
 
 git commit -m "your message"
 
-git push -u origin main 
+git push -u origin branchname 
+
+
+git pull origin branchname 
+
+
+# create new branch 
+
+git branch -a 
+
+git checkout -b branch_name
+

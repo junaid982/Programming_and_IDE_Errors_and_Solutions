@@ -13,3 +13,21 @@ Vs Code Extension
 4 – Auto rename Tag 
 5 – Live Server
 6 - sqlite viewer
+
+
+vs code settings Json
+
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    // "workbench.startupEditor": "none",
+    "workbench.colorTheme": "One Dark Pro Monokai Darker",
+    "workbench.startupEditor": "none",
+    "python.defaultInterpreterPath": "C:\\Users\\Ultron\\Envs\\server",
+    "window.zoomLevel": -1,
+    "files.autoSave": "afterDelay"
+}
