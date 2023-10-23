@@ -1,0 +1,16 @@
+open virtualbox and run your Ubuntu 
+
+
+click Device option on the main screen 
+
+Devices -> Insert guest additional CD images
+
+your can find the CD like image in  navigation of Ubuntu 
+
+click on it it will open a folder 
+
+open termial from that folder 
+
+>>> ./autorun.sh
+
+enter password restart your machin and chenge 
