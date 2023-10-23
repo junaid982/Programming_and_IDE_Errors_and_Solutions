@@ -1,0 +1,22 @@
+hit any sudo sommand and get error 
+
+if the error 
+
+ultron user is not in the sudiers files . this incident will be reported 
+
+# add user as sudo ( root )
+
+>>> adduser ultron sudo 
+
+
+
+>>> su root 
+>>> your password  
+
+
+>>> adduser ultron sudo 
+
+>>> chmod 0440 /etc/sudoers
+
+
+and reboot 
