@@ -25,7 +25,7 @@ vs code settings Json
         "javascript": "jsx"
     },
     // "workbench.startupEditor": "none",
-    "workbench.colorTheme": "One Dark Pro Monokai Darker",
+    "workbench.colorTheme": "GitHub Dark Default",
     "workbench.startupEditor": "none",
     "python.defaultInterpreterPath": "C:\\Users\\Ultron\\Envs\\server",
     "window.zoomLevel": -1,
