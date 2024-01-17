@@ -13,6 +13,7 @@ Vs Code Extension
 4 – Auto rename Tag 
 5 – Live Server
 6 - sqlite viewer
+7 - blackbox
 
 
 vs code settings Json
