@@ -14,6 +14,7 @@ Vs Code Extension
 5 – Live Server
 6 - sqlite viewer
 7 - blackbox
+8 - python
 
 
 vs code settings Json
