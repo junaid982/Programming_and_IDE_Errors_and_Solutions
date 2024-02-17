@@ -1,0 +1,119 @@
+GitHub : https://github.com/junaid982/Fullstack_Crud_app-django-react-RTK-Query
+
+
+part 1
+https://www.youtube.com/watch?v=MbLqe9MHzRw&list=PLfvCHnGandUehlYCcfNTQqemSAWa2EjfI&index=1
+
+
+Part 2
+
+
+https://youtu.be/dRj9s-WwJkY
+
+Creating Django Models & Setting Up Admin Panel: Building Your Database Structure #backend part -2
+
+Creating Django Models & Setting Up Admin Panel: Building Your Database Structure"
+
+Description: In this tutorial, we delve deeper into Django development by focusing on creating models and setting up the admin panel. Models are the backbone of any Django project, defining the structure of your database and data relationships. Follow along as we guide you through the process of defining Django models to represent your data and setting up the admin panel for easy management of your database entries. Whether you're building a simple blog or a complex web application, understanding how to define models and utilize the admin panel efficiently is essential. By the end of this video, you'll have a solid foundation in managing your Django project's data structure effectively. Let's dive in and take your Django skills to the next level!
+
+Part 1 : https://www.youtube.com/watch?v=MbLqe9MHzRw&list=PLfvCHnGandUehlYCcfNTQqemSAWa2EjfI&index=1
+
+GitHub : GitHub : https://github.com/junaid982/Fullstack_Crud_app-django-react-RTK-Query
+
+
+
+Part 3
+
+Handling POST Requests & Serializers in Django: Building Interactive APIs #backend part - 3
+
+In this tutorial, we explore the process of handling POST requests and serializers in Django to build interactive APIs. POST requests are essential for creating and updating data in a web application, and serializers play a crucial role in validating and processing incoming data. Follow along as we demonstrate how to create a Django view to handle POST requests, define serializers to serialize and deserialize data, and integrate them seamlessly into your Django project. By the end of this video, you'll have a clear understanding of how to build robust APIs in Django, enabling your applications to interact with external clients efficiently. Whether you're new to Django or looking to enhance your API development skills, this tutorial is a must-watch for aspiring web developers. Let's dive in and empower your Django projects with powerful API capabilities!
+
+Part 1 : https://www.youtube.com/watch?v=MbLqe9MHzRw&list=PLfvCHnGandUehlYCcfNTQqemSAWa2EjfI&index=1
+Part 2 : https://youtu.be/dRj9s-WwJkY
+
+GitHub : GitHub : https://github.com/junaid982/Fullstack_Crud_app-django-react-RTK-Query
+
+
+
+
+Part 4
+
+https://youtu.be/1ofUcsqUihs
+
+Exploring GET Requests & Retrieving Data by Record ID: Django API Development #backend part - 4
+
+
+Welcome to the fourth installment of our Django API development series! In this video, we focus on handling GET requests to retrieve data from our Django application. We'll cover the basics of setting up a Django view to handle GET requests, querying the database to fetch all data, and retrieving specific records by their unique IDs. Follow along as we demonstrate how to build efficient APIs that provide access to your application's data in a structured and organized manner. Whether you're building a simple CRUD application or a complex data-driven platform, understanding how to handle GET requests effectively is essential for creating a seamless user experience. By the end of this tutorial, you'll have the knowledge and skills to implement GET endpoints in your Django API and retrieve data with ease. Let's dive in and elevate your Django API development game!
+
+Part 1 : https://www.youtube.com/watch?v=MbLqe9MHzRw&list=PLfvCHnGandUehlYCcfNTQqemSAWa2EjfI&index=1
+Part 2 : https://youtu.be/dRj9s-WwJkY
+Part 3 : https://youtu.be/OoZKLYeFLAE
+
+GitHub : GitHub : https://github.com/junaid982/Fullstack_Crud_app-django-react-RTK-Query
+
+
+
+
+part 5
+
+https://youtu.be/osKiErT9OHA
+
+Handling PATCH Requests & Updating Records: Django API Development Tutorial #backend part - 5
+
+Welcome to the fifth installment of our Django API development tutorial series! In this video, we delve into handling PATCH requests to update records in our Django application's API. PATCH requests are crucial for making partial updates to existing data, and in this tutorial, we'll guide you through the process of setting up endpoints to handle these requests efficiently. Follow along as we demonstrate how to implement PATCH functionality to update specific records by their unique IDs. From defining serializers to handling request payloads, we'll cover everything you need to know to seamlessly integrate PATCH requests into your Django API. Whether you're building a simple task management app or a sophisticated e-commerce platform, understanding how to handle PATCH requests effectively is essential for maintaining data integrity and providing a smooth user experience. By the end of this tutorial, you'll have the knowledge and skills to implement PATCH endpoints in your Django API and update records with confidence. Let's dive in and take your Django API development skills to the next level!
+
+
+Part 1 : https://www.youtube.com/watch?v=MbLqe9MHzRw&list=PLfvCHnGandUehlYCcfNTQqemSAWa2EjfI&index=1
+Part 2 : https://youtu.be/dRj9s-WwJkY
+Part 3 : https://youtu.be/OoZKLYeFLAE
+Part 4 : https://youtu.be/1ofUcsqUihs
+
+GitHub : GitHub : https://github.com/junaid982/Fullstack_Crud_app-django-react-RTK-Query
+
+
+6 - 
+https://youtu.be/9CINWVJJdiE
+
+6 - Deleting Data by Record ID: Django API Development Tutorial #backend part - 5
+
+Welcome to the sixth installment of our Django API development tutorial series! In this video, we focus on implementing the DELETE functionality to remove data from our Django application's API. Deleting data by record ID is a fundamental aspect of building RESTful APIs, and in this tutorial, we'll guide you through the process step-by-step. Follow along as we demonstrate how to set up DELETE endpoints to handle requests for removing specific records by their unique IDs. From configuring routes to writing view logic, we'll cover everything you need to know to implement DELETE functionality effectively in your Django API. Whether you're building a content management system or a social networking platform, understanding how to delete records securely and efficiently is essential for maintaining the integrity of your application's data. By the end of this tutorial, you'll have the knowledge and skills to implement DELETE endpoints in your Django API and manage data deletion with confidence. Let's dive in and empower your Django API development journey!
+
+Part 1 : https://www.youtube.com/watch?v=MbLqe9MHzRw&list=PLfvCHnGandUehlYCcfNTQqemSAWa2EjfI&index=1
+Part 2 : https://youtu.be/dRj9s-WwJkY
+Part 3 : https://youtu.be/OoZKLYeFLAE
+Part 4 : https://youtu.be/1ofUcsqUihs
+Part 5 : https://youtu.be/osKiErT9OHA
+
+GitHub : GitHub : https://github.com/junaid982/Fullstack_Crud_app-django-react-RTK-Query
+
+
+7 - 
+
+https://youtu.be/DvbnSUVuiyQ
+7 - Building a Search API in Django: Filtering Records by Employee Name and Email #backend part - 7
+
+Welcome to the seventh video in our Django API development tutorial series! In this tutorial, we'll explore the process of building a search API in Django to filter records based on employee name and email. We'll start by examining the code you've provided, which includes setting up a Django view to handle GET requests and search for records in the database. Then, we'll dive into the implementation details, including how to parse query parameters, filter records dynamically, and serialize the results using Django REST Framework serializers.
+
+Follow along as we walk through each step of the process, from defining the URL endpoint to crafting the view logic and serializing the response data. By the end of this tutorial, you'll have a solid understanding of how to create a powerful search functionality in your Django API, enabling users to retrieve specific records based on their search criteria.
+
+Whether you're a beginner exploring Django API development or seeking to enhance your skills in building complex APIs, this tutorial provides valuable insights and practical examples to help you succeed. Join us as we unlock the potential of Django for creating efficient and scalable search APIs!
+
+Part 1 : https://www.youtube.com/watch?v=MbLqe9MHzRw&list=PLfvCHnGandUehlYCcfNTQqemSAWa2EjfI&index=1
+Part 2 : https://youtu.be/dRj9s-WwJkY
+Part 3 : https://youtu.be/OoZKLYeFLAE
+Part 4 : https://youtu.be/1ofUcsqUihs
+Part 5 : https://youtu.be/osKiErT9OHA
+Part 6 : https://youtu.be/9CINWVJJdiE
+
+GitHub : GitHub : https://github.com/junaid982/Fullstack_Crud_app-django-react-RTK-Query
+
+
+
+
+
+
+
+
+
+
+
