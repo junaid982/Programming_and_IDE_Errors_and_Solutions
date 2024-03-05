@@ -1,0 +1,18 @@
+if we deployed the react app on cpanel 
+and after refresh its shows nothing or 404 not found 
+
+edit 
+.htaccess file 
+
+add 
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+and save 
